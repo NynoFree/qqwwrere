@@ -67,7 +67,7 @@ const App: React.FC = () => { //создание компанента
         } else if (guess < secretNumber) {
             setMessage('Больше');
         } else {
-            setMessage('Меньше');
+            setMessage('Меньше');//
         }
     };
     const handleRestart = () => {
